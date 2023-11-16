@@ -25,7 +25,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.setWindowTitle('Генерация рандомного жёлтого круга')
+        self.setWindowTitle('Генерация рандомного круга')
         self.setGeometry(100, 100, 400, 400)
 
         self.centralWidget = QWidget(self)
